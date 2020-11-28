@@ -1,0 +1,14 @@
+bài 9: mã gray
+học về vector
+- sử dụng thư viện vector
+- sử dụng các mã Gray trước để tạo mã gray sau;
+để list mã (n-1)bit là G1; tạo 1 list G2 là đảo ngược lại của G1;
+Sửa đổi list G1 bằng cách thêm số 0 đằng trước mã của G1
+Sửa đổi list G2 bằng cách thêm số 1 đằng trước mã của G2
+Nối G1 và G2 -> list mã Gray n-bit 
+vd: G1=(00,01,11,10) // list mã Gray 2 bít
+G2=(10,11,01,00) // đảo của G1
+Thêm tiền tố 0 vào G1 -> G1=(000,001,011,010)
+Thêm tiền tố 1 vào G2 -> G2=(110,111,101,100)
+Nối 2 nhóm-> G(3-bit)=(000,001,011,010,110,111,101,100)
+sử dụng <string> và <vector>

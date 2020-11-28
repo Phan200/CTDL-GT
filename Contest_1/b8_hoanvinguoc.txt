@@ -1,0 +1,20 @@
+bài 8: hoán vị ngược
+
+void next_oppositePermutation(){
+     gán i->n-1;
+     nếu (x[i]<x[i+1]) --i;// tìm đến khi x[i]>x[i+1]
+     // khi tìm được
+     nếu(i>0){
+         int j=n; // tìm từ cuối lên xem số nào nhỏ hơn x[i]
+         while(x[i]<x[j]) --j;
+         // vì dãy đã được sắp xếp từ lớn đến bé nên lấy luôn 
+         // số đầu tiên nhỏ hơn x[i]
+         // tráo đổi 2 số
+         x[i]<->x[j];
+         // đổi ngược các số sau x[i] từ lớn tới bé
+         ...
+      }
+}
+         
+      
+     

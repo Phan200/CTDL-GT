@@ -1,0 +1,8 @@
+bài 7: thuật toán sinh kế tiếp; phân tích 1 số thành tổng các số 
+
+-Cần các hàm check(),print(),next_Division();
+void check() // xem tổng đã bằng tổng các số 1 n lần chưa
+void print()
+void next_Division(){
+    gán i->k // k= độ dài dãy đang phân tích hiện tại
+    đặt

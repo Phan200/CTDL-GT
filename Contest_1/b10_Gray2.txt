@@ -1,0 +1,11 @@
+bài 10: chuyển đổi 1 xâu nhị phân thành mã gray tương ứng
+vd: 01001 -> 01101
+/* the most significant bit(MSB) của 2 mã đều như nhau 
+->binary[0]= gray[0]
+so sánh 2 bit liên tiếp; nếu bằng nhau thì =0; khác nhau =1;
+*/
+
+tạo 1 hàm so sánh và đưa xa kết quả
+char xor_c(char a,char b){return (a==b)? "0":"1";)
+
+sử dụng string; không làm như mảng mà dùng phép + để thêm vào sau;

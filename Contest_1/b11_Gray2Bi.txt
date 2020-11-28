@@ -1,0 +1,8 @@
+b11: chuyển đổi từ mã gray sang nhị phân
+
+- MSB luôn như nhau -> b[0]=g[0]
+- để biết được bit tiếp theo, chọn XOR giữa bit đầu tiên của binary
+với bit thứ 2 của mã gray.->b[1]=b[0] Xor g[1] 
+- để biết bit thứ 3, XOR giữa bit thứ 2 của gray với bit thứ 
+b[2]=b[1] xor g[2]
+bang nhau =0; khac nhau =1
